@@ -4,18 +4,18 @@
 
 //递归方法实现strlen()
 
-//int myStrlen(char* str)
-//{
-//	if (*str == '\0')
-//	{
-//		return 0;
-//	}
-//	else
-//	{
-//		return 1 + myStrlen(str + 1);
-//	}
-//}
-////非递归方法实现strlen
+int myStrlen(char* str)
+{
+	if (*str == '\0')
+	{
+		return 0;
+	}
+	else
+	{
+		return 1 + myStrlen(str + 1);
+	}
+}
+//非递归方法实现strlen
 int my_strlen(char* str)
 {
 	int count = 0;
