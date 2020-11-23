@@ -66,6 +66,7 @@
   <ItemGroup>
     <ClCompile Include="1.c" />
     <ClCompile Include="gongbeishu.c" />
+    <ClCompile Include="reverse.c" />
     <ClCompile Include="test.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
