@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A4E76AB4-1118-4E8E-B6C5-127817D07477}</ProjectGuid>
-    <RootNamespace>My20201124</RootNamespace>
+    <ProjectGuid>{59409032-AB8B-449B-8162-CA6213BB5DC0}</ProjectGuid>
+    <RootNamespace>My20201125</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -47,6 +47,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -64,9 +65,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Mystrlen.c" />
-    <ClCompile Include="reverse.c" />
-    <ClCompile Include="test.c" />
+    <ClCompile Include="Mystrcat.c" />
+    <ClCompile Include="Mystrcmp.c" />
+    <ClCompile Include="Mystrcpy.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

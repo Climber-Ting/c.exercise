@@ -9,11 +9,11 @@
 //AABCD左旋两个字符得到BCDAA
 //AABCD右旋一个字符得到DAABC
 
-int main()
-{
-
-
-
-	system("pause");
-	return 0;
-}
+//int main()
+//{
+//
+//
+//
+//	system("pause");
+//	return 0;
+//}

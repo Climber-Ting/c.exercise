@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test.c">
+    <ClCompile Include="Mystrcpy.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="reverse.c">
+    <ClCompile Include="Mystrcat.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Mystrlen.c">
+    <ClCompile Include="Mystrcmp.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
