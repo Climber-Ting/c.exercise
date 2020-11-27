@@ -2,6 +2,7 @@
 #include<stdio.h>
 #include<assert.h>
 
+//×Ö·û´®±È½Ï
 int Mystrcmp(char* str1,char* str2)
 {
 	assert(str1&&str2);
