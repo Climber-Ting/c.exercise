@@ -27,9 +27,9 @@ char* Mymemmove(char* dest, char* src, int size)
 	return p;
 
 }
-int main()
-{
-	char dest[10] = "123456";
-	printf("%s\n", Mymemmove(dest+2, dest, 3));     //1236
-	//printf("%s\n", Mymemmove(dest, dest+2, 3));     //345456     两个不能同时输出，前边的改变会影响后边内容的输出。
-}
+//int main()
+//{
+//	char dest[10] = "123456";
+//	printf("%s\n", Mymemmove(dest+2, dest, 3));     //1236
+//	//printf("%s\n", Mymemmove(dest, dest+2, 3));     //345456     两个不能同时输出，前边的改变会影响后边内容的输出。
+//}
