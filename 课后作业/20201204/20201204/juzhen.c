@@ -34,19 +34,19 @@ int findnum(int a[][3], int x, int y, int f)
 	return 0;
 }
 
-int main()
-{
-	int a[3][3] = { { 1, 3, 5 },
-	{ 3, 5, 7 },
-	{ 5, 7, 9 } }; //一个示例
-
-	if (findnum(a, 3, 3, 9))
-	{
-		printf("It has been found!\n");
-	}
-	else
-	{
-		printf("It hasn't been found!\n");
-	}
-	return 0;
-}
+//int main()
+//{
+//	int a[3][3] = { { 1, 3, 5 },
+//	{ 3, 5, 7 },
+//	{ 5, 7, 9 } }; //一个示例
+//
+//	if (findnum(a, 3, 3, 9))
+//	{
+//		printf("It has been found!\n");
+//	}
+//	else
+//	{
+//		printf("It hasn't been found!\n");
+//	}
+//	return 0;
+//}

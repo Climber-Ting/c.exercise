@@ -68,6 +68,7 @@
     <ClCompile Include="juzhen.c" />
     <ClCompile Include="string.c" />
     <ClCompile Include="string2.c" />
+    <ClCompile Include="test.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
